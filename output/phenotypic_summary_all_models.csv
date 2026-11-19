@@ -1,0 +1,13 @@
+setup,features,split,model,AUC_mean,AUC_pooled,BalAcc,F1
+A,age + sex,mixed,LogReg,0.6675,0.6585,0.6331,0.5807
+A,age + sex,mixed,RandForest,0.5668,0.5621,0.5307,0.4403
+A,age + sex,loso,LogReg,0.5975,0.6393,0.6211,0.571
+A,age + sex,loso,RandForest,0.542,0.5371,0.5237,0.4304
+B,"age, sex, handedness, FIQ",mixed,LogReg,0.7173,0.7133,0.6329,0.56
+B,"age, sex, handedness, FIQ",mixed,RandForest,0.6914,0.6873,0.6203,0.5391
+B,"age, sex, handedness, FIQ",loso,LogReg,0.7119,0.6965,0.644,0.5723
+B,"age, sex, handedness, FIQ",loso,RandForest,0.6573,0.6431,0.5972,0.5017
+C,site only,mixed,LogReg,0.7239,0.7108,0.6963,0.6433
+C,site only,mixed,RandForest,0.7159,0.7052,0.6963,0.6433
+D,B + site,mixed,LogReg,0.815,0.8143,0.7342,0.6754
+D,B + site,mixed,RandForest,0.8099,0.8086,0.7318,0.6667
